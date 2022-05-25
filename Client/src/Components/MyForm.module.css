@@ -1,0 +1,22 @@
+.Form form{
+    text-align: center;
+    font-size: 30pt;
+    background-color: lightblue;
+    padding: 10pt 10pt 10pt 10pt;
+}
+.Form form label{
+    font-size: 20pt;
+}
+.Form form input{
+    text-align: center;
+    margin: 10px;
+    border: none;
+    /* border: black 1px ; */
+    /* border-top: 1px; */
+    outline: none;
+    background-color: rgb(175, 230, 248);
+    font-size: 20pt;
+}
+.Form form button{
+    font-size: 20pt;
+}

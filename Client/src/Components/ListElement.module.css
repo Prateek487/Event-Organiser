@@ -1,0 +1,40 @@
+.List {
+  display: flex;
+  font-size: 20pt;
+  justify-content: center;
+}
+.List .ListElement {
+  color: rgb(252, 245, 245);
+  background-color: rgb(159, 240, 134);
+  border: 2px #08df13 solid;
+  width: 50%;
+}
+.List .ListElement h2 {
+  display: flex;
+  font-size: 30pt;
+  width: 100%;
+  justify-content: center;
+}
+.List .ListElement .ElementDesc {
+  width: 100%;
+  background-color: rgb(177, 232, 160);
+}
+.List .ListElement .ElementDesc p {
+  display: flex;
+  width: 100%;
+  font-size: 20pt;
+  justify-content: center;
+  margin: 0%;
+}
+.List .ListElement button {
+  font-size: 20pt;
+  border: none;
+  background-color: rgb(159, 240, 134);
+}
+.List .Close {
+  display: inline-flex;
+}
+.List .Close button {
+  height: 100%;
+  font-size: 10pt;
+}

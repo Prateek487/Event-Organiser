@@ -1,0 +1,16 @@
+.HeaderBar {
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.HeaderBar h3 {
+  display: inline-flex;
+}
+.HeaderBar a,.HeaderBar button {
+  display: inline-flex;
+  text-decoration: none;
+  margin: 10px;
+  font-size: 20pt;
+  color: rgb(240, 158, 110);
+}
